@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.boxes{
+    background-color: #A9E4D7;
+    border: 1px solid black;
+    position: relative;
+}
+.boxes h2{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #000;
+    margin: 0;
+    padding: 5px;
+}
+#chicken-title{
+    background-color:#B24080;
+}
+#beef-title{
+   background-color: #ECAC5D;
+}
+#sushi-title{
+    background-color: #FFF9B2;
+}
+.boxes p{
+    font-size:18px;
+    color:#000;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
