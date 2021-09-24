@@ -4,13 +4,13 @@
 #title{
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    margin: 30px auto;
 }
 .boxes{
     background-color: #A9E4D7;
     border: 1px solid black;
     position: relative;
-    height: 170px;
-    margin:2px;
+    height: 220px;
 }
 .boxes h2{
     font-family: 'Roboto', sans-serif;
@@ -19,7 +19,7 @@
     right: 0;
     border: 1px solid #000;
     margin: 0;
-    padding: 5px;
+    padding: 5px 50px;
 }
 #chicken-title{
     background-color:#B24080;
@@ -37,7 +37,6 @@
     font-family: 'Roboto', sans-serif;
     text-align: left;
     margin: 50px auto 0;
-    width: 90%;
 }
 .row{
     width:100%;
@@ -130,9 +129,8 @@
 }
 /*Mobile/Small Devices*/
 @media (max-width:767px){
-    .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,
-    .col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{
-       float: left;
+    .boxes{
+        margin: 20px auto;
     }
     .col-sm-1{
         width: 8.33%;
